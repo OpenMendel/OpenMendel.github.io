@@ -30,7 +30,7 @@
         <h2>
 <a id="openmendel-packages" class="anchor" href="#openmendel-packages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>OpenMendel Packages</h2>
 
-<p>OpenMendel is an open source project implemented in the <a href="http://julialang.org">Julia</a> programming language that comprises a set of packages for statistical analysis to solve a variety of genetic problems. OpenMendel is the open source version of the <a href="http://www.genetics.ucla.edu/software/mendel">Mendel</a>, a comprehensive package for exact statistical genetic analysis of qualitative and quantitative traits. Mendel offers 24 options for statistical genetic analysis. OpenMendel currently provides the analysis packages listed below, with additional options under development. We invite the genetics community to contribute to the OpenMendel Project.</p>
+<p>OpenMendel is an open source project implemented in the <a href="http://julialang.org">Julia</a> programming language that comprises a set of packages for statistical analysis to solve a variety of genetic problems. OpenMendel is the open source version of the <a href="http://www.genetics.ucla.edu/software/mendel">Mendel</a>, a comprehensive package for exact statistical genetic analysis of qualitative and quantitative traits. OpenMendel currently provides the analysis packages listed below, with additional options under development. We invite the genetics community to contribute to the OpenMendel Project.</p>
 
 <h3>
 <a id="packages" class="anchor" href="#packages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Packages:</h3>
@@ -87,16 +87,16 @@
 <h3>
 <a id="data-files" class="anchor" href="#data-files" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Data Files</h3>
 
-<p>To run an analysis package you will need to prepare a Control file and have your data files available. The Control file holds your data filenames and any optional parameters for the analysis. Details on the general format and contents of the Control and data files can be found on the MendelBase <a href="https://openmendel.github.io/MendelBase.jl">documentation page</a>. Descriptions of the specific options available within any analysis package are in its documentation page.</p>
+<p>To run an analysis package you will need to prepare a Control file and have your data files available. The Control file holds your data filenames and any optional parameters for the analysis. Details on the format and contents of the Control and data files can be found in the <a href="https://openmendel.github.io/MendelBase.jl">MendelBase documentation page</a>. Descriptions of the relevant parameters (<em>keywords</em>) available within each analysis package are in its documentation page (see the links above).</p>
 
 <p>There are example data files in the "docs" subfolder of each Mendel package, for example, ~/.julia/v0.4/MendelGWAS/docs.</p>
 
 <h3>
 <a id="running-the-analysis" class="anchor" href="#running-the-analysis" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Running the Analysis</h3>
 
-<p>To run an analysis package, first launch Julia. Then load the package with the command:</p>
+<p>To run an analysis package, first launch Julia. Then load the package, for example MendelGWAS, with the command:</p>
 
-<pre><code> julia&gt; using MendelGeneDropping
+<pre><code> julia&gt; using MendelGWAS
 </code></pre>
 
 <p>Next, if necessary, change to the directory containing your files, for example,</p>
@@ -106,17 +106,17 @@
 
 <p>Finally, to run the analysis using the parameters in your Control file, for example, Control_file.txt, use the command:</p>
 
-<pre><code> julia&gt; GeneDropping("Control_file.txt")
+<pre><code> julia&gt; GWAS("Control_file.txt")
 </code></pre>
 
-<p><em>Note: the package is called</em> MendelGeneDropping <em>but the analysis function is called simply</em> GeneDropping.</p>
+<p><em>Note: Mendel analysis packages are named with the Mendel prefix, for example,</em> MendelGWAS, <em>but the actual analysis functions do not have the prefix, for example,</em> GWAS.</p>
 
 <h3>
 <a id="citation" class="anchor" href="#citation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Citation</h3>
 
 <p>If you use this analysis package in your research, please cite the following reference in resulting publications:</p>
 
-<p><em>Lange K, Papp JC, Sinsheimer JS, Sripracha R, Zhou H, Sobel EM (2013) Mendel: The Swiss army knife of genetic analysis programs. Bioinformatics 29:1568-1570.</em></p>
+<p><em>Lange K, Papp JC, Sinsheimer JS, Sripracha R, Zhou H, Sobel EM (2013). Mendel: The Swiss army knife of genetic analysis programs. Bioinformatics 29:1568-1570.</em></p>
       </section>
     </div>
 
