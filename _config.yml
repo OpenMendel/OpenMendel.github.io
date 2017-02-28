@@ -1,0 +1,8 @@
+title: OpenMendel
+description: An Open Source Program for Statistical Genetics Analysis
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-slate
+
+gems:
+  - jekyll-mentions
