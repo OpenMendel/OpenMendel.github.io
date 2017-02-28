@@ -18,26 +18,26 @@ OpenMendel is an open source project implemented in the [Julia](http://julialang
 
 OpenMendel also includes the following utility packages:
 
+* [MendelBase](https://openmendel.github.io/MendelBase.jl) contains the base functions of OpenMendel.
 * [Search](https://openmendel.github.io/Search.jl) is a program for function optimization. Search permits bounds and linear constraints to be imposed on parameters and, in statistical applications, computes asymptotic standard errors and correlations of parameter estimates.
-* [MendelBase](https://openmendel.github.io/MendelBase.jl) contains the base functions of OpenMendel
 * [SnpArrays](https://openmendel.github.io/SnpArrays.jl/latest/) provides utilities for handling compressed storage of biallelic SNP data.
 * [VarianceComponentModels](https://openmendel.github.io/VarianceComponentModels.jl/latest/) provides utilities for fitting and testing variance components models, also known as linear mixed models.
 
 ### Installation
 
-*Note: Three OpenMendel packages - [SnpArrays](https://openmendel.github.io/SnpArrays.jl), [Search](https://openmendel.github.io/SnpArrays.jl/latest/), and [MendelBase](https://openmendel.github.io/MendelBase.jl) must be installed before any Mendel analysis packages will run.*
+*Note: Three OpenMendel packages - (1) [SnpArrays](https://openmendel.github.io/SnpArrays.jl), (2) [Search](https://openmendel.github.io/SnpArrays.jl/latest/), and (3) [MendelBase](https://openmendel.github.io/MendelBase.jl) must be installed before any Mendel analysis packages will run. It is easiest to install if these three are installed in the above order and before any other OpenMendel packages.*
 
-Within Julia, use the package manager to install the OpenMendel package, for example, MendelBase:
+Within Julia, use the package manager to install the OpenMendel package, for example, to install SnapArrays, use the command:
 
-    Pkg.clone("https://github.com/OpenMendel/MendelBase.jl.git")
+    Pkg.clone("https://github.com/OpenMendel/SnpArrays.jl.git")
 
-This package supports Julia v0.4.
+All OpenMendel packages supports Julia v0.4 and v0.5.
 
 ### Data Files
 
 To run an analysis package you will need to prepare a Control file and have your data files available. The Control file holds your data filenames and any optional parameters for the analysis. Details on the format and contents of the Control and data files can be found in the [MendelBase documentation page](https://openmendel.github.io/MendelBase.jl). Descriptions of the relevant parameters (*keywords*) available within each analysis package are in its documentation page (see the links above).
 
-There are example data files in the "docs" subfolder of each Mendel package, for example, ~/.julia/v0.4/MendelGWAS/docs.
+There are example data files in the "docs" subfolder of each Mendel package, for example, ~/.julia/v0.5/MendelGWAS/docs.
 
 ### Running the Analysis
 
