@@ -7,11 +7,11 @@ OpenMendel is an open source project implemented in the [Julia](http://julialang
 * [AIM Selection](https://openmendel.github.io/MendelAimSelection.jl) selects the SNPs that are most informative at predicting ancestry for your data — the best Ancestry Informative Markers (AIMs). [Package name: MendelAimSelection.]
 * [Estimate Frequencies](https://openmendel.github.io/MendelEstimateFrequencies.jl) calculates a likelihood-based estimate of allele frequencies. [Package name: MendelEstimateFrequencies.]
 * [Gamete Competition](https://openmendel.github.io/MendelGameteCompetition.jl) implements a gamete competition analysis, which is a generalization of the TDT analysis. [Package name: MendelGameteCompetition.]
-* [Gene Dropping](https://github.com/OpenMendel/MendelGeneDropping.jl) performs gene dropping with several useful options for the output. [Package name: MendelGeneDropping.]
+* [Gene Dropping](https://openmendel.github.io/MendelGeneDropping.jl) performs gene dropping with several useful options for the output. [Package name: MendelGeneDropping.]
 * [Genetic Counseling](https://openmendel.github.io/MendelGeneticCounseling.jl)  performs risk calculations for genetic counseling problems. [Package name: MendelGeneticCounseling.]
-* [GWAS](https://github.com/OpenMendel/MendelGWAS.jl) performs standard Genome-wide Association Studies. [Package name: MendelGWAS.]
+* [GWAS](https://openmendel.github.io/MendelGWAS.jl) performs standard Genome-wide Association Studies. [Package name: MendelGWAS.]
 * [Kinship](https://openmendel.github.io/MendelKinship.jl) computes kinship and other identity coefficients. [Package name: MendelKinship.]
-* [Location Scores](https://github.com/OpenMendel/MendelLocationScores.jl) maps a trait via the method of Location Scores, i.e., multipoint linkage analysis. [Package name: MendelLocationScores.]
+* [Location Scores](https://openmendel.github.io/MendelLocationScores.jl) maps a trait via the method of Location Scores, i.e., multipoint linkage analysis. [Package name: MendelLocationScores.]
 * [Two Point Linkage](https://openmendel.github.io/MendelTwoPointLinkage.jl) performs two-point linkage analysis. [Package name: MendelTwoPointLinkage.]
 
 ### Utilities
@@ -25,13 +25,13 @@ OpenMendel also includes the following utility packages:
 
 ### Installation
 
-*Note: Three OpenMendel packages - (1) [SnpArrays](https://openmendel.github.io/SnpArrays.jl), (2) [Search](https://openmendel.github.io/SnpArrays.jl/latest/), and (3) [MendelBase](https://openmendel.github.io/MendelBase.jl) must be installed before any Mendel analysis packages will run. It is easiest to install if these three are installed in the above order and before any other OpenMendel packages.*
+*Note: Three OpenMendel packages - (1) [SnpArrays](https://openmendel.github.io/SnpArrays.jl/latest/), (2) [Search](https://openmendel.github.io/Search.jl), and (3) [MendelBase](https://openmendel.github.io/MendelBase.jl) must be installed before any Mendel analysis packages will run. It is easiest to install if these three packages are installed in the above order and before any other OpenMendel packages.*
 
-Within Julia, use the package manager to install the OpenMendel package, for example, to install SnapArrays, use the command:
+Within Julia, use the package manager to install an OpenMendel package, for example, to install SnapArrays, use the command:
 
     Pkg.clone("https://github.com/OpenMendel/SnpArrays.jl.git")
 
-All OpenMendel packages supports Julia v0.4 and v0.5.
+All OpenMendel packages support Julia v0.4 and v0.5.
 
 ### Data Files
 
