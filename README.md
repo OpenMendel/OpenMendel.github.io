@@ -14,4 +14,4 @@ If you use this analysis package in your research, please cite the following ref
 
 ### Acknowledgments
 
-This project is supported by the National Institutes of Health under NIGMS awards R01GM053275 and R25GM103774 and NHGRI award R01HG006139. 
+This project is supported by the National Institutes of Health under NIGMS awards R01GM053275 and R25GM103774 and NHGRI award R01HG006139.
