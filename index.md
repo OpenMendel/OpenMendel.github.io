@@ -31,7 +31,7 @@ Within Julia, use the package manager to install an OpenMendel package, for exam
 
     Pkg.clone("https://github.com/OpenMendel/SnpArrays.jl.git")
 
-All OpenMendel packages support Julia v0.4 and v0.5.
+All OpenMendel packages support Julia v0.5 and v0.6.
 
 ### Data Files
 
