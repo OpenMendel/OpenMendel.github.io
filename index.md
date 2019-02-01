@@ -29,7 +29,7 @@ OpenMendel also includes the following utility packages:
 
 Within Julia, use the package manager to install an OpenMendel package, for example, to install MendelBase, use the command:
 
-    (v1.1) pkg> add https://github.com/OpenMendel/MendelBase.jl.git
+    pkg> add https://github.com/OpenMendel/MendelBase.jl.git
 
 All OpenMendel packages support Julia v1.0+.
 
