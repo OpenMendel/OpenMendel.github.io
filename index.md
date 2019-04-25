@@ -1,6 +1,6 @@
 ## OpenMendel Project
 
-OpenMendel is an open source project implemented in the [Julia](http://julialang.org) programming language that comprises a set of packages for statistical analysis to solve a variety of genetic problems. OpenMendel is the open source version of [Mendel](http://www.genetics.ucla.edu/software/mendel), a comprehensive package for exact statistical genetic analysis of qualitative and quantitative traits. OpenMendel currently provides the analysis options listed below, with additional options under development. Each analysis option is a separate Julia package. We invite the genetics community to contribute to the OpenMendel Project.
+OpenMendel is an open source project implemented in the [Julia](http://julialang.org) programming language that comprises a set of packages for statistical analysis to solve a variety of genetic problems. OpenMendel is the open source version of [Mendel](http://www.genetics.ucla.edu/software/mendel), a comprehensive package for exact statistical genetic analysis of qualitative and quantitative traits. OpenMendel currently provides the analysis options listed below, with additional options under development. Each analysis option is a separate Julia package. We invite the genetics community to contribute to the OpenMendel Project..
 
 ### Analysis Options:
 
