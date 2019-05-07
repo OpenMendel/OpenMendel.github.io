@@ -10,7 +10,7 @@ a comprehensive package for exact statistical genetic analysis of qualitative an
 
 If you use this analysis package in your research, please cite the following reference in resulting publications:
 
-*Lange K, Papp JC, Sinsheimer JS, Sripracha R, Zhou H, Sobel EM (2013). Mendel: The Swiss army knife of genetic analysis programs. Bioinformatics 29:1568-1570.*
+*OPENMENDEL: a cooperative programming project for statistical genetics. Zhou H, Sinsheimer JS, Bates DM, Chu BB, German CA, Ji SS, Keys KL, Kim J, Ko S, Mosher GD, Papp JC, Sobel EM, Zhai J, Zhou JJ, Lange K. Hum Genet. 2019 Mar 26. doi: 10.1007/s00439-019-02001-z. [Epub ahead of print] PMID: 30915546*
 
 ### Acknowledgments
 
