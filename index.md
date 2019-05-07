@@ -59,7 +59,7 @@ Finally, to run the analysis using the parameters in your Control file, for exam
 
 If you use this analysis package in your research, please cite the following reference in resulting publications:
 
-*Lange K, Papp JC, Sinsheimer JS, Sripracha R, Zhou H, Sobel EM (2013). Mendel: The Swiss army knife of genetic analysis programs. Bioinformatics 29:1568-1570.*
+*Zhou H, Sinsheimer JS, Bates DM, Chu BB, German CA, Ji SS, Keys KL, Kim J, Ko S, Mosher GD, Papp JC, Sobel EM, Zhai J, Zhou JJ, Lange K.*
 
 ### Acknowledgments
 
